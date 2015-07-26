@@ -12,6 +12,8 @@
 
 ## the setwd() function should be called before this function
 ## the working directory should contain the unzipped folder UCI HAR Dataset containing the Samsung data
+## it should also contain the file "varnames_edited.txt" that is found in the github repository
+## (along with this script, a readme file, and a codebook describing the variables)
 
 run_analysis <- function() {
   library(dplyr)
