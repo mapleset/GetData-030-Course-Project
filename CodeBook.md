@@ -14,7 +14,7 @@ Definitions
 mean = Mean (average) value of a set of data points
 std = Standard deviation
 GroupMean = Mean of all samples taken for each grouping of Subject and Activity
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions
 
 Units
 =================

@@ -14,6 +14,8 @@ The original data came from experiments that were carried out with a group of 30
 
 To tidy the original data, the training and test sets were merged into a single data set. From this, only the measurements on the mean and standard deviation for each measurement were selected. Descriptive activity names were then applied to the activities instead of the numbers 1-6.  At this point, the data was grouped by the subject volunteer number and the activity name.  Finally, the column names were cleaned up and the prefix 'GroupMean' applied to the beginning of each variable name, indicating that the value of each row was the mean of each grouping.
 
+To meet the definition of 'tidy data', each variable is in one column, and each different observation of that variable is in a different row.  The output of the run_analysis.R script creates a 'wide-form' tidy data set.
+
 The original data was downloaded from
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
