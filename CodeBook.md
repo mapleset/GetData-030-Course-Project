@@ -5,6 +5,8 @@ date: "July 25, 2015"
 output: html_document
 ---
 
+Description of work
+===================
 To tidy the original data, the training and test sets were merged into a single data set. From this, only the measurements on the mean and standard deviation for each measurement were selected. Descriptive activity names were then applied to the activities instead of the numbers 1-6.  At this point, the data was grouped by the subject volunteer number and the activity name.  Finally, the column names were cleaned up and the prefix 'GroupMean' applied to the beginning of each variable name, indicating that the value of each row was the mean of each grouping.
 
 Definitions
