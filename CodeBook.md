@@ -16,6 +16,11 @@ std = Standard deviation
 GroupMean = Mean of all samples taken for each grouping of Subject and Activity
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+Units
+=================
+- Variable values are normalized and bounded within [-1,1]
+- Prior to normalization, the units for acceleration were standard gravity units 'g' and gyro readings in radians/second
+
 Variable names
 =================
 Subject = The volunteer subject number (1-30)
